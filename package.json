@@ -1,0 +1,28 @@
+{
+  "name": "elify",
+  "version": "0.0.0-development",
+  "description": "DOM HTML element manipulation",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "uglifyjs ./lib/elify.js -o ./lib/elify.min.js -m --source-map 'filename='elify.min.js.map''",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isaactawakali/elify"
+  },
+  "keywords": [
+    "dom",
+    "html",
+    "element"
+  ],
+  "author": "Isaac Tawakali",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^17.4.3"
+  }
+}
